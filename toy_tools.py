@@ -41,6 +41,7 @@ print(url, ": 현재 웹페이지의 url입니다.")
 
 
 # 3. Driver wait 관련 tool
+
 # 3-1. 3초때 로딩이 끝나서, element가 찾아짐
 # 3-2. 30초까지는 기다림
 # 3-3. 30초 넘어가면 error 발생
@@ -50,5 +51,5 @@ try:
         By.CSS_SELECTOR, selector
     ))
 except:
-    print("exeption")
+    print("exception 발생")
 print("Driver wait done! Element is loaded!")
